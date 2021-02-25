@@ -45,12 +45,11 @@ function PigList({pigs, onButtonClick}){
         )}
     )
     return (
-    
-    <div 
-    // <button onButtonClick={onButtonClick}>Greased</button>
-    // <hr />
-    className="ui grid container">{pigsArr}
-    </div> 
+        
+        
+        <div className="ui grid container">
+        {pigsArr}
+    // </div> 
     )
 }
 
